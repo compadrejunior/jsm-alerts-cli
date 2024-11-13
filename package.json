@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "create": "node app.js --create"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
