@@ -7,6 +7,7 @@ export interface Config {
   CLOUD_ID: string | undefined;
   USER_EMAL: string | undefined;
   API_TOKEN: string | undefined;
+  GENIE_KEY: string | undefined;
 }
 
 export const config: Config = {
@@ -14,4 +15,5 @@ export const config: Config = {
   CLOUD_ID: process.env.CLOUD_ID,
   USER_EMAL: process.env.USER_EMAL,
   API_TOKEN: process.env.API_TOKEN,
+  GENIE_KEY: process.env.GENIE_KEY,
 };
